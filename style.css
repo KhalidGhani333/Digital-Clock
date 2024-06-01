@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(247, 253, 220);
+}
+body,.time,.rightside,.leftside,.day,.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightside{
+    flex-direction: column;
+}
+.digitalclock{
+    background-color: black;
+    color: white;
+    width: 450px;
+    height: 200px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 10px rgba(0,0,0,0.5);
+}
+#hour{
+    font-size: 100px;
+    font-weight: 600;
+}
+#dots{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#minutes{
+    font-size: 70px;
+    font-weight: 600;
+}
+.bottom{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    transform: translateY(-12px);
+}
+#ampm{
+    color: yellow;
+}
